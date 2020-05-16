@@ -1,0 +1,40 @@
+.time-slider-container {
+  margin: 20px;
+  text-align: center;
+  .slider.slider-horizontal {
+    width: 100%;
+    .slider-tick-container {
+      display: none !important;
+    }
+    .slider-tick-label-container .slider-tick-label {
+      &:first-child {
+        padding-left: 50px;
+      }
+      &:last-child {
+        padding-right: 50px;
+      }
+    }
+  }
+  .slider-track-total {
+    background-color: #4A89DC;
+    opacity: 0.3;
+  }
+}
+
+.slider.slider-horizontal {
+  width: 10%;
+  height: 20px;
+}
+
+.map {
+  position: absolute;
+  z-index: -1;
+}
+
+.timelapse{
+  width: 1200px;
+  height: 643px;
+   margin-left:auto;
+  margin-right:auto;
+}
+
