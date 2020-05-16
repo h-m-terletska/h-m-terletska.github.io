@@ -1,0 +1,21 @@
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
+html {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+
